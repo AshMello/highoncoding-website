@@ -1,0 +1,48 @@
+.mystyle {
+    background-color:navy;
+    padding: 20px;
+} 
+
+.navbar-brand {
+    color: white;
+}
+
+.boxes  {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 20rem;
+} 
+
+.mynavstyle {
+    color:white;
+}
+
+.col-sm-6   {
+    display: flex;
+    justify-content: center;
+}
+
+.jumbo {
+    text-align: center;
+}
+
+.btn-primary    {
+    margin-left: 33%;
+}
+
+.title-card {
+    font-size: 24px;
+    text-align: center;
+}
+
+@media only screen and (min-device-width : 0px) and (max-device-width : 480px) {
+    .boxes  {
+        display:flex;
+        flex-direction: column;
+    }
+}
